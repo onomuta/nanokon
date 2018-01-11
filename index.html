@@ -1,0 +1,79 @@
+<!-- http://www.korg.com/jp/products/computergear/nanokontrol2/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>nanokon</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="js/jquery.knob.min.js"></script>
+    <script src="/script.js" defer></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1609895-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-1609895-3');
+    </script>
+
+  </head>
+  <body>  
+    <select id="select-midi-output-device"></select>
+    <select id="select-midi-output-ch"></select>
+    <div class="nanokon">      
+      <div class="left-box">
+        <div class="func-line">          
+          <div class="btn" id="func1"></div>
+          <div class="btn" id="func2"></div>
+          <div class="btn" id="func3"></div>
+          <div class="btn" id="func4"></div>
+          <div class="btn" id="func5"></div>
+          <div class="btn" id="func6"></div>
+          <div class="btn" id="func7"></div>
+          <div class="btn" id="func8"></div>
+          <div class="btn" id="func9"></div>
+          <div class="btn" id="func10"></div>
+          <div class="btn" id="func11"></div>
+        </div>
+      </div>
+      <table class="right-box">
+        <tr class="knob-line">
+          <td><input id="knob1" class="knob" value="0"></td>
+          <td><input id="knob2" class="knob" value="0"></td>
+          <td><input id="knob3" class="knob" value="0"></td>
+          <td><input id="knob4" class="knob" value="0"></td>
+          <td><input id="knob5" class="knob" value="0"></td>
+          <td><input id="knob6" class="knob" value="0"></td>
+          <td><input id="knob7" class="knob" value="0"></td>
+          <td><input id="knob8" class="knob" value="0"></td>
+        </tr>
+        <tr class="slider-line">
+          <td><div class="slider" id="slider1"></div></td>
+          <td><div class="slider" id="slider2"></div></td>
+          <td><div class="slider" id="slider3"></div></td>
+          <td><div class="slider" id="slider4"></div></td>
+          <td><div class="slider" id="slider5"></div></td>
+          <td><div class="slider" id="slider6"></div></td>
+          <td><div class="slider" id="slider7"></div></td>
+          <td><div class="slider" id="slider8"></div></td>
+        </tr>
+        <tr class="btn-line">
+          <td><div class="btn" id="btn1A"></div><div class="btn" id="btn1B"></div><div class="btn" id="btn1C"></div></td>
+          <td><div class="btn" id="btn2A"></div><div class="btn" id="btn2B"></div><div class="btn" id="btn2C"></div></td>
+          <td><div class="btn" id="btn3A"></div><div class="btn" id="btn3B"></div><div class="btn" id="btn3C"></div></td>
+          <td><div class="btn" id="btn4A"></div><div class="btn" id="btn4B"></div><div class="btn" id="btn4C"></div></td>
+          <td><div class="btn" id="btn5A"></div><div class="btn" id="btn5B"></div><div class="btn" id="btn5C"></div></td>
+          <td><div class="btn" id="btn6A"></div><div class="btn" id="btn6B"></div><div class="btn" id="btn6C"></div></td>
+          <td><div class="btn" id="btn7A"></div><div class="btn" id="btn7B"></div><div class="btn" id="btn7C"></div></td>
+          <td><div class="btn" id="btn8A"></div><div class="btn" id="btn8B"></div><div class="btn" id="btn8C"></div></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
