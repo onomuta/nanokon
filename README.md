@@ -1,6 +1,13 @@
 # nanokon
+Korg nanoKONTROL2 MIDI emulator on browser.
 
-system requirements　: Mac + Chrome.  
-We have to set IAC Driver in Audio/MIDI Setup to online.
 
-[https://onomuta.github.io/nanokon](https://onomuta.github.io/nanokon)
+## setup
+### Mac
+Set IAC Driver in Audio/MIDI Setup to online.
+
+### Win
+Use virtualMIDI.
+
+## DEMO
+https://onomuta.github.io/nanokon
