@@ -1,6 +1,6 @@
 # nanokon
 Korg nanoKONTROL2 MIDI emulator on browser.
-
+![https://onomuta.github.io/nanokon](nanokon.png "nanokon")
 
 ## setup
 https://qiita.com/onomuta/items/663926501600f77ed898
